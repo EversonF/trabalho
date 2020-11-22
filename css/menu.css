@@ -104,3 +104,6 @@ header{
     background-color: #ffffff;
     text-align: center;
 }
+@media olny screen and (max-device-width: 450px) {
+    /*.menu { width:100%; } */
+}
