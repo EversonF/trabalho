@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <title>Meu dindim</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
   </head>
   <body>
-    <center>
-      <a href="index.html"><img src="/img/logo.png" alt="Logo" height="300em" width="300em" /></a>
-      <form>
-        <label for="usuario">Usuário</label>
-        <input
-          type="email"
-          placeholder="seuemail@provedor.com"
-          size="40px"
-        /><br /><br />
-        <label for="senha">Senha</label>
-        <input
-          type="password"
-          size="40px"
-          maxlength="8"
-          placeholder="Informe sua senha de 8 dígitos"
-        /><br /><br />
-        <a href="menu.html"><button type="button">LOGIN</button></a>
-        <p><a style="text-decoration: none; color: rgb(77, 77, 77);"; href="/register.html"> Registrar! </a></p>
-      </form>
-    </center>
+    <div class="container">
+      <img src="/img/logo.png" width="15%" alt="">
+      <div class="base">
+        <div class="options">
+          <a href="/login.html">LOGAR</a><a href="/register.html">REGISTRAR</a>
+        </div>
+        <div class="baseline">
+          <form action="/menu.html">
+            <div class="loginn">
+              <label for="emil">Email</label>
+              <input type="text" id="email">
+            </div>
+            <div class="loginn">
+              <label for="senha">Senha</label>
+              <input type="text" id="senha">
+            </div>
+            <button class="submit">LOGIN</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
