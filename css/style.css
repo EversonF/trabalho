@@ -8,20 +8,34 @@ h1,h2,h3 {
     color: #000000;
 }
 
+body{
+    margin: 0;
+}
+
 .button {
     color: white;
     text-decoration: none;
     padding: 10px 30px;
     background-color: #1c1c1c;
     font-size: .9em;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1c1c1c;
+    background-color: #79dbba;
+    height: 70px;
+}
+
+nav .button{
+    background-color: white;
+    color: #79dbba;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: Nunito, sans-serif;
 }
 
 nav > a {
@@ -63,7 +77,6 @@ header {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 50px;
 }
 
 header h1{

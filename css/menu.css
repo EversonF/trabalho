@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: #cfcfcf;
+}
+
+.top{
+    background-color: #ffffff;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+}
+
+.top{
+    height: 60px;
+}
+
+.top img{
+    margin-left: 30px;
+    height: 80%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.container .menu{
+    margin-top: 2px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu a{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #707070;
+    font-family: 'Nunito','Serif';
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #79dbba;
+
+}
+
+.window{
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 80%;
+    height: 100%;
+    background-color:#ffffff;
+    display: flex;
+}
+
+.gastos h1{
+    color: #db4e4e;
+    font-family: 'Nunito', 'Serif';
+}
+
+.receita h1{
+    color: #63b35c;
+    font-family: 'Nunito', 'Serif';
+}
+
+.window h2{
+    font-size: 24px;
+    color: #707070;
+    font-family: 'Nunito', 'Serif';
+    font-weight: initial;
+}
+
+#formulario{
+    margin-left: 25%;
+    width: 50%;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Nunito', 'Serif';
+    background-color: #707070;
+    border-radius: 20px;
+}
+
+.gastos {
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.receita {
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff;
+    text-align: center;
+}
