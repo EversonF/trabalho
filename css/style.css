@@ -1,0 +1,179 @@
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c
+}
+
+h1,h2,h3 {
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #1c1c1c;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: yellowtail, serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1{
+    font-size: 300%;
+    color: white;
+}
+
+header h2{
+    color: white;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+header .button{
+    background-color: white;
+    color: black;
+}
+
+#acompanhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    color: black;
+}
+
+#acompanhamento h2{
+    color: white;
+}
+
+#acompanhamento p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#acompanhamento div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: #e0e0e0;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul {
+    flex-direction: row;
+    width: 70%;
+}
+header {
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+    min-height: 250px;
+}
+#acompanhamento {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#acompanhamento h2 {
+    color: #1c1c1c;
+    text-align: center;
+    width: 100%;
+}
+
+#acompanhamento div {
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 px;
+}
+
+#about h2, #about p {
+    align-items: center;
+    max-width: 1000px;
+}
+}
